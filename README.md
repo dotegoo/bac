@@ -1,2 +1,2 @@
 # bac
-Acest site iti va prezenta opere de bac si rezumatul lor precum si alte informatii de care poate vei avea nevoie
+Site pentru a studia pentru bac DEADLINE: 4 january 2024
