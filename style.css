@@ -9,51 +9,45 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../images/BAC.jpg);
     height: 100vh;
 }
-#despre{
-    height: 100vh;
+#Despre{
     background-color:burlywood;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../images/BAC.jpg);
+    height: 100vh;
 }
 #Rommana{
-    height:100vh;
     background-color:burlywood;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../images/BAC.jpg);
+    height: 100vh;
 }
 
 #Matematica{
-    height: 100vh;
     background-color:burlywood;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../images/BAC.jpg);
+    height: 100vh;
 }
 
 #Informatica{
-    height: 100vh;
     background-color:burlywood;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../images/BAC.jpg);
+    height: 100vh;
 }
 
 #Biologie{
-    height: 100vh;
     background-color:burlywood;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../images/BAC.jpg);
+    height: 100vh;
 }
 
 /*Nav*/
@@ -80,7 +74,7 @@
     content:'';
     width: 0%;
     height: 3px;
-    background:	#804000;
+    background:	#3d79c8;
     position:absolute;
     left:0;
     bottom:-6px;
@@ -94,4 +88,8 @@ nav h1{
     margin-left:30px;
     font-size:40px;
     color:#325ef0;
+}
+#header nav h1 span{
+    font-size:23px;
+    color:#3d79c8;
 }
