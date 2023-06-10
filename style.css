@@ -18,7 +18,7 @@
     background-size: cover;
     height: 100vh;
 }
-#Rommana{
+#Romana{
     background-color:burlywood;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,12 +61,12 @@
 #header nav ul li{
     display:inline-block;
     list-style: none;
-    margin:10px 20px;
+    margin:10px 5px;
 }
 #header nav ul a li{
     color:#325ef0;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
     position: relative;
 
 }
@@ -94,8 +94,53 @@ nav h1{
     color:#3d79c8;
 }
 /*#Despre*/
-#Despre p {
-    font-size:16px;
+#Despre h1 {
+    color:#325ef0;
+    font-size:46px;
     margin-left:1vw;
+    margin-bottom: 5vh;
+}
+#Despre p {
+    font-size:20px;
+    margin-left:2vw;
+    color:#325ef0;
+    
+}
+/*Romana*/
+#Romana{
     color:#325ef0;
 }
+/*Matematica*/
+#Matematica{
+    color:#325ef0;
+}
+/*Informatica*/
+#Informatica{
+    color:#325ef0;
+}
+/*Biologie*/
+#Biologie{
+    color:#325ef0;
+}
+
+/*Scroll Bar*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #fff;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #325ef0;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3d79c8;
+  }
