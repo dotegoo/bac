@@ -109,18 +109,40 @@ nav h1{
 /*Romana*/
 #Romana h1{
     color:#325ef0;
+    margin-left:5%;
+    padding-top:2%;
+    font-size:46px;
+}
+#Romana nav{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+#Romana nav ul{
+    margin-left:5%;
+    margin-top:10%;
+    list-style: none;
+}
+#Romana nav ul li a{
+    font-size: 26px;
+    text-decoration: none;
+    color:#325ef0;
 }
 /*Matematica*/
 #Matematica h1{
     color:#325ef0;
+    font-size:46px;
 }
 /*Informatica*/
 #Informatica h1{
     color:#325ef0;
+    font-size:46px;
 }
 /*Biologie*/
 #Biologie h1{
     color:#325ef0;
+    font-size:46px;
 }
 
 /*Scroll Bar*/
