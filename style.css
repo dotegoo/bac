@@ -133,28 +133,73 @@ width: 100%;
     
 }
 /*Romana*/
-#Romana h1{
-    color:#325ef0;
-    margin-left:5%;
-    padding-top:2%;
+#Romana  h1{
+    padding-top:50px;
+    margin-left:30px;
     font-size:46px;
+    color:#325ef0;
 }
 #Romana nav{
     display: flex;
-    align-items:center;
-    justify-content:center;
+    align-items: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 #Romana nav ul{
-    margin-left:5%;
-    margin-top:10%;
+    align-items: center;
+}
+#Romana nav ul li{
+    display:inline-block;
     list-style: none;
+    margin:10px 5px;
 }
 #Romana nav ul li a{
-    font-size: 26px;
+    color:#325ef0;
     text-decoration: none;
+    font-size: 26px;
+    position: relative;
+
+}
+#Romana nav ul li a::after{
+    content:'';
+    width: 0%;
+    height: 3px;
+    background:	#3d79c8;
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    transition: 0.5s;
+}
+#Romana nav ul li a:hover::after{
+width: 100%;
+}
+
+/*romanaDeInvatat*/
+
+/*romanaVarBac*/
+
+/*romanaRezVarBac*/
+
+/*romanaSub1*/
+
+/*romanaSub2*/
+
+/*romanaSub3*/
+
+#headerSub3{
+    background-color:burlywood;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#headerSub3 nav h1{
+    padding-top:50px;
+    margin-left:30px;
+    font-size:46px;
     color:#325ef0;
 }
+
 /*Matematica*/
 #Matematica h1{
     color:#325ef0;
@@ -171,28 +216,3 @@ width: 100%;
     font-size:46px;
 }
 
-/*deInvatat*/
-
-/*varBac*/
-
-/*rezVarBac*/
-
-/*sub1*/
-
-/*sub2*/
-
-/*sub3*/
-
-#headerSub3{
-    background-color:burlywood;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
-#headerSub3 nav h1{
-    padding-top:50px;
-    margin-left:30px;
-    font-size:46px;
-    color:#325ef0;
-}
