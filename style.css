@@ -173,8 +173,40 @@ width: 100%;
 #Romana nav ul li a:hover::after{
 width: 100%;
 }
+#Romana p{
+    font-size:26px;
+    padding-top:10vh;
+    width: 46vw;
+    margin-left: auto;
+    margin-right: auto;
+    color:#325ef0;
+}
 
-/*romanaDeInvatat*/
+/*romanaOpere*/
+
+#headerRomanaOpere{
+    background-color:burlywood;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#headerRomanaOpere h1{
+    padding-top:5vh;
+    padding-left:1vw;
+    color:#325ef0;
+    font-size: 46px;
+}
+#headerRomanaOpere p{
+    font-size: 24px;
+    text-align: center;
+    margin-top:8vh;
+    width: 50vw;
+    margin-left:auto;
+    margin-right: auto;
+    color:#325ef0;
+    font-weight: 550;
+}
 
 /*romanaVarBac*/
 
@@ -186,7 +218,7 @@ width: 100%;
 
 /*romanaSub3*/
 
-#headerSub3{
+#headerRomanaSub3{
     background-color:burlywood;
     background-position: center;
     background-repeat: no-repeat;
@@ -204,15 +236,18 @@ width: 100%;
 #Matematica h1{
     color:#325ef0;
     font-size:46px;
+    margin-left:1vw;
 }
 /*Informatica*/
 #Informatica h1{
     color:#325ef0;
     font-size:46px;
+    margin-left:1vw;
 }
 /*Biologie*/
 #Biologie h1{
     color:#325ef0;
     font-size:46px;
+    margin-left:1vw;
 }
 
