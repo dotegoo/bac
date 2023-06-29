@@ -9,7 +9,7 @@
 
 /* width */
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 0.7vw;
   }
   
   /* Track */
@@ -69,7 +69,7 @@
 }
 
 #Biologie{
-    background-color:burlywood;
+    background-color:#408e2f;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -188,16 +188,119 @@ width: 100%;
     font-size:46px;
     margin-left:1vw;
 }
+#Matematica nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#Matematica nav ul{
+    align-items: center;
+}
+#Matematica nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin:10px 5px;
+}
+#Matematica nav ul li a{
+    color:#325ef0;
+    text-decoration: none;
+    font-size: 26px;
+    position: relative;
+
+}
+#Matematica nav ul li a::after{
+    content:'';
+    width: 0%;
+    height: 3px;
+    background:	#3d79c8;
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    transition: 0.5s;
+}
+#Matematica nav ul li a:hover::after{
+width: 100%;
+}
 /*Informatica*/
 #Informatica h1{
     color:#325ef0;
     font-size:46px;
     margin-left:1vw;
 }
+#Informatica nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#Informatica nav ul{
+    align-items: center;
+}
+#Informatica nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin:10px 5px;
+}
+#Informatica nav ul li a{
+    color:#325ef0;
+    text-decoration: none;
+    font-size: 26px;
+    position: relative;
+
+}
+#Informatica nav ul li a::after{
+    content:'';
+    width: 0%;
+    height: 3px;
+    background:	#3d79c8;
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    transition: 0.5s;
+}
+#Informatica nav ul li a:hover::after{
+width: 100%;
+}
 /*Biologie*/
 #Biologie h1{
-    color:#325ef0;
+    color:#c0f7b5;
     font-size:46px;
     margin-left:1vw;
+}
+
+#Biologie nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#Biologie nav ul{
+    align-items: center;
+}
+#Biologie nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin:10px 5px;
+}
+#Biologie nav ul li a{
+    color:#325ef0;
+    text-decoration: none;
+    font-size: 26px;
+    position: relative;
+
+}
+#Biologie nav ul li a::after{
+    content:'';
+    width: 0%;
+    height: 3px;
+    background:	#3d79c8;
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    transition: 0.5s;
+}
+#Biologie nav ul li a:hover::after{
+width: 100%;
 }
 
