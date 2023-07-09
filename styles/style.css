@@ -14,7 +14,7 @@
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: linear-gradient(#26a1ca,#408e2f,#408e2f,#26a1ca,#26a1ca,#d4db48,#d4db48,#26a1ca,#26a1ca,#408e2f,#408e2f,#26a1ca) ;
+    background: linear-gradient(#26a1ca,#408e2f,#408e2f,#26a1ca,#26a1ca,#408e2f,#408e2f,#26a1ca,#26a1ca,#408e2f,#408e2f,#26a1ca) ;
   }
   
   /* Handle */
@@ -45,7 +45,7 @@
     height: 100vh;
 }
 #Romana{
-    background:linear-gradient(#26a1ca,#d4db48);
+    background:linear-gradient(#26a1ca,#408e2f);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,7 +53,7 @@
 }
 
 #Matematica{
-    background:linear-gradient(#d4db48,#26a1ca);
+    background:linear-gradient(#408e2f,#26a1ca);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,7 +69,7 @@
 }
 
 #Biologie{
-    background-color:#408e2f;
+    background:linear-gradient(#408e2f,#26a1ca);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -203,7 +203,7 @@ width: 100%;
     margin:10px 5px;
 }
 #Matematica nav ul li a{
-    color:#325ef0;
+    color:#fff;
     text-decoration: none;
     font-size: 26px;
     position: relative;
@@ -301,6 +301,6 @@ width: 100%;
     transition: 0.5s;
 }
 #Biologie nav ul li a:hover::after{
-width: 100%;
+    width: 100%;
 }
 
