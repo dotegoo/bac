@@ -14,38 +14,38 @@
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background:#408e2f ;
+    background: linear-gradient(#26a1ca,#408e2f,#408e2f,#26a1ca,#26a1ca,#d4db48,#d4db48,#26a1ca,#26a1ca,#408e2f,#408e2f,#26a1ca) ;
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #c0f7b5;
+    background: #fff;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #c0f7b7;
+    background: #fff;
   }
   
 /*Home Page*/
 
 /*Pregatim Inaltimile paginii*/
 #header{
-    background-color:#408e2f;
+    background:linear-gradient(#26a1ca, #408e2f);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
 #Despre{
-    background-color:#408e2f;
+    background:linear-gradient(#408e2f,#26a1ca);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
 #Romana{
-    background-color:#408e2f;
+    background:linear-gradient(#26a1ca,#d4db48);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,7 +53,7 @@
 }
 
 #Matematica{
-    background-color:#408e2f;
+    background:linear-gradient(#d4db48,#26a1ca);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,7 +61,7 @@
 }
 
 #Informatica{
-    background-color:#408e2f;
+    background:linear-gradient(#26a1ca,#408e2f);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,7 +90,7 @@
     margin:10px 5px;
 }
 #header nav ul a li{
-    color:#325ef0;
+    color:#fff;
     text-decoration: none;
     font-size: 20px;
     position: relative;
@@ -100,7 +100,7 @@
     content:'';
     width: 0%;
     height: 3px;
-    background:	#3d79c8;
+    background:	#fff;
     position:absolute;
     left:0;
     bottom:-6px;
@@ -113,15 +113,15 @@ width: 100%;
     margin-top:50px;
     margin-left:30px;
     font-size:46px;
-    color:#325ef0;
+    color:#fff;
 }
 #header nav h1 span{
     font-size:23px;
-    color:#3d79c8;
+    color:#fff;
 }
 /*#Despre*/
 #Despre h1 {
-    color:#325ef0;
+    color:#fff;
     font-size:46px;
     margin-left:1vw;
     margin-bottom: 5vh;
@@ -129,7 +129,7 @@ width: 100%;
 #Despre p {
     font-size:20px;
     margin-left:2vw;
-    color:#325ef0;
+    color:#fff;
     
 }
 /*Romana*/
@@ -137,7 +137,7 @@ width: 100%;
     padding-top:50px;
     margin-left:30px;
     font-size:46px;
-    color:#325ef0;
+    color:#fff;
 }
 #Romana nav{
     display: flex;
@@ -154,7 +154,7 @@ width: 100%;
     margin:10px 5px;
 }
 #Romana nav ul li a{
-    color:#325ef0;
+    color:#fff;
     text-decoration: none;
     font-size: 26px;
     position: relative;
@@ -164,7 +164,7 @@ width: 100%;
     content:'';
     width: 0%;
     height: 3px;
-    background:	#3d79c8;
+    background:	#fff;
     position:absolute;
     left:0;
     bottom:-6px;
@@ -179,12 +179,12 @@ width: 100%;
     width: 50vw;
     margin-left: auto;
     margin-right: auto;
-    color:#325ef0;
+    color:#fff;
 }
 
 /*Matematica*/
 #Matematica h1{
-    color:#325ef0;
+    color:#fff;
     font-size:46px;
     margin-left:1vw;
 }
@@ -213,7 +213,7 @@ width: 100%;
     content:'';
     width: 0%;
     height: 3px;
-    background:	#3d79c8;
+    background:	#fff;
     position:absolute;
     left:0;
     bottom:-6px;
@@ -224,7 +224,7 @@ width: 100%;
 }
 /*Informatica*/
 #Informatica h1{
-    color:#325ef0;
+    color:#fff;
     font-size:46px;
     margin-left:1vw;
 }
@@ -243,7 +243,7 @@ width: 100%;
     margin:10px 5px;
 }
 #Informatica nav ul li a{
-    color:#325ef0;
+    color:#fff;
     text-decoration: none;
     font-size: 26px;
     position: relative;
@@ -253,7 +253,7 @@ width: 100%;
     content:'';
     width: 0%;
     height: 3px;
-    background:	#3d79c8;
+    background:	#fff;
     position:absolute;
     left:0;
     bottom:-6px;
@@ -264,7 +264,7 @@ width: 100%;
 }
 /*Biologie*/
 #Biologie h1{
-    color:#c0f7b5;
+    color:#fff;
     font-size:46px;
     margin-left:1vw;
 }
@@ -284,7 +284,7 @@ width: 100%;
     margin:10px 5px;
 }
 #Biologie nav ul li a{
-    color:#c0f7b5;
+    color:#fff;
     text-decoration: none;
     font-size: 26px;
     position: relative;
@@ -294,7 +294,7 @@ width: 100%;
     content:'';
     width: 0%;
     height: 3px;
-    background:	#c0f7b7;
+    background:	#fff;
     position:absolute;
     left:0;
     bottom:-6px;
