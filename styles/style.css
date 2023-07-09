@@ -361,6 +361,13 @@ width: 100%;
         #Despre p{
             font-size:17px;
         }
+        #header nav ul a li{
+            color:#fff;
+            text-decoration: none;
+            font-size: 16px;
+            position: relative;
+        
+        }
     }
   
     
