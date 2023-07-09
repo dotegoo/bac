@@ -304,3 +304,64 @@ width: 100%;
     width: 100%;
 }
 
+/*Responsive*/
+@media screen and (max-width: 800px) 
+     {
+        #Biologie nav ul li a{
+            color:#fff;
+            text-decoration: none;
+            font-size: 16px;
+            position: relative;
+        
+        }
+        #Biologie h1{
+            font-size:30px;
+        }
+        #Romana nav ul li a{
+            color:#fff;
+            text-decoration: none;
+            font-size: 16px;
+            position: relative;
+        
+        }
+        #Romana h1{
+            font-size:30px;
+        }
+        #Romana p{
+            font-size:17px;
+            padding-top:3vh;
+            width: 83vw;
+            margin-left: auto;
+            margin-right: auto;
+            color:#fff;
+        }
+        #Matematica nav ul li a{
+            color:#fff;
+            text-decoration: none;
+            font-size: 16px;
+            position: relative;
+        
+        }
+        #Matematica h1{
+            font-size:30px;
+        }
+        #Informatica nav ul li a{
+            color:#fff;
+            text-decoration: none;
+            font-size: 16px;
+            position: relative;
+        
+        }
+        #Informatica h1{
+            font-size:30px;
+        }
+        #Despre h1{
+            font-size:30px;
+        }
+        #Despre p{
+            font-size:17px;
+        }
+    }
+  
+    
+
