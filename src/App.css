@@ -1,42 +1,44 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/*Header*/
+header {
+  height: 100vh;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/*Despre*/
+.Despre {
+  height: 100vh;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*Romana*/
+.Romana {
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/*Matematica*/
+.Matematica {
+  height: 100vh;
 }
 
-.card {
-  padding: 2em;
+/*Informatica*/
+.Informatica {
+  height: 100vh;
 }
 
-.read-the-docs {
-  color: #888;
+/*Biologie*/
+.Biologie {
+  height: 100vh;
+}
+
+/*Fizica*/
+.Fizica {
+  height: 100vh;
+}
+
+/*Chimie*/
+.Chimie {
+  height: 100vh;
 }
