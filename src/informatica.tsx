@@ -1,8 +1,8 @@
 const Informatica = () => {
   return (
     <>
-      <div className="Informatica" id="Informatica">
-        <h1>hello</h1>
+      <div id="Informatica">
+        <h1>Informatica</h1>
       </div>
     </>
   );

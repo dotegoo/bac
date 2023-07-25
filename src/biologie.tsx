@@ -1,8 +1,8 @@
 const Biologie = () => {
   return (
     <>
-      <div className="Biologie" id="Biologie">
-        <h1>hello</h1>
+      <div id="Biologie">
+        <h1>Biologie</h1>
       </div>
     </>
   );
