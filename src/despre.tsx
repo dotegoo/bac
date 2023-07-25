@@ -1,7 +1,7 @@
 const Despre = () => {
   return (
     <>
-      <div className="Despre">
+      <div className="Despre" id="Despre">
         <h1>hello</h1>
       </div>
     </>

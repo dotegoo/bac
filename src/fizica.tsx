@@ -1,7 +1,7 @@
 const Fizica = () => {
   return (
     <>
-      <div className="Fizica">
+      <div className="Fizica" id="Fizica">
         <h1>hello</h1>
       </div>
     </>
