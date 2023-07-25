@@ -12,17 +12,19 @@
 header {
   height: 100vh;
 }
-header #arrowdown img {
-  height: 80px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 /*Despre*/
 #Despre {
   height: 100vh;
 }
-
+#Despre p {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 1vh;
+}
+#Despre .ps {
+  padding-top: 20vh;
+}
 /*Romana*/
 #Romana {
   height: 100vh;
@@ -52,16 +54,10 @@ header #arrowdown img {
 #Chimie {
   height: 100vh;
 }
+
 @media screen and (max-width: 800px) {
-  #navPC {
-    visibility: hidden;
-  }
-  #navMOBILE {
-    margin-top: -20vh;
-  }
-}
-@media screen and (min-width: 801px) {
-  #navMOBILE {
-    visibility: hidden;
+  header nav .container a img {
+    height: 40px;
+    width: 40px;
   }
 }

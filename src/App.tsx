@@ -11,10 +11,7 @@ function App() {
     <>
       <header>
         <h1 className="text-center">Bac</h1>
-        <p className="fs-3 text-center">
-          Bun venit elev silitor, aici vei putea invata pentru bac
-        </p>
-        <nav className="navbar" id="navPC">
+        <nav className="navbar">
           <div className="container">
             <a className="navbar-brand" href="#Romana">
               <img src="./romana.png" width="65" height="65" />
@@ -36,31 +33,6 @@ function App() {
             </a>
           </div>
         </nav>
-        <nav className="navbar" id="navMOBILE">
-          <div className="container">
-            <a className="navbar-brand" href="#Romana">
-              <img src="./romana.png" width="40" height="40" />
-            </a>
-            <a className="navbar-brand" href="#Matematica">
-              <img src="./matematica.png" width="40" height="40" />
-            </a>
-            <a className="navbar-brand" href="#Informatica">
-              <img src="./informatica.png" width="40" height="40" />
-            </a>
-            <a className="navbar-brand" href="#Biologie">
-              <img src="./biologie.png" width="40" height="40" />
-            </a>
-            <a className="navbar-brand" href="#Fizica">
-              <img src="./fizica.png" width="40" height="40" />
-            </a>
-            <a className="navbar-brand" href="#Chimie">
-              <img src="./chimie.png" width="40" height="40" />
-            </a>
-          </div>
-        </nav>
-        <a id="arrowdown" className="center" href="#Despre">
-          <img src="/Arrow-down.png" className="center" />
-        </a>
       </header>
 
       <Despre />
