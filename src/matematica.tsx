@@ -2,7 +2,7 @@ const Matematica = () => {
   return (
     <>
       <div id="Matematica">
-        <h1>Matematica</h1>
+        <h1 className="text-center">Matematica</h1>
       </div>
     </>
   );

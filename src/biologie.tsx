@@ -2,7 +2,7 @@ const Biologie = () => {
   return (
     <>
       <div id="Biologie">
-        <h1>Biologie</h1>
+        <h1 className="text-center">Biologie</h1>
       </div>
     </>
   );
