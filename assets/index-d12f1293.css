@@ -1,4 +1,4 @@
-@charset "UTF-8";@import"https://fonts.googleapis.com/css2?family=PT+Serif&display=swap";*{margin:0;padding:0;border:0;background:#0a5;color:#fff;font-family:"PT Serif",serif}header{height:100vh}#Despre{height:100vh}#Despre p{font-size:24px;text-align:center;padding-top:1vh}#Despre .ps{padding-top:20vh}#Romana,#Matematica,#Informatica,#Biologie,#Fizica,#Chimie{height:100vh}@media screen and (max-width: 800px){header nav .container a img{height:40px;width:40px}}/*!
+@charset "UTF-8";@import"https://fonts.googleapis.com/css2?family=PT+Serif&display=swap";*{margin:0;padding:0;border:0;background:#0a5;color:#fff;font-family:"PT Serif",serif}header{height:100vh}#Despre{height:100vh}#Despre p{font-size:24px;text-align:center;padding-top:1vh}#Despre .ps{padding-top:0vh}#Romana,#Matematica,#Informatica,#Biologie,#Fizica,#Chimie{height:100vh}@media screen and (max-width: 800px){header nav .container a img{height:40px;width:40px}}/*!
  * Bootstrap  v5.3.0 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
