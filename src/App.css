@@ -4,18 +4,29 @@
   margin: 0;
   padding: 0;
   border: 0;
-  background: #0a5;
   color: #fff;
   font-family: "PT Serif", serif;
+}
+#primaParte {
+  background: linear-gradient(#31b7c2, #7bc393);
+}
+#aDouaParte {
+  background: linear-gradient(#7bc393, #31b7c2);
 }
 /*Header*/
 header {
   height: 100vh;
 }
+header h1 {
+  text-shadow: 2px 2px 5px #316bc2;
+}
 
 /*Despre*/
 #Despre {
   height: 100vh;
+}
+#Despre h1 {
+  text-shadow: 2px 2px 5px #316bc2;
 }
 #Despre p {
   font-size: 24px;
@@ -29,30 +40,48 @@ header {
 #Romana {
   height: 100vh;
 }
+#Romana h1 {
+  text-shadow: 2px 2px 5px #316bc2;
+}
 
 /*Matematica*/
 #Matematica {
   height: 100vh;
+}
+#Matematica h1 {
+  text-shadow: 2px 2px 5px #316bc2;
 }
 
 /*Informatica*/
 #Informatica {
   height: 100vh;
 }
+#Informatica h1 {
+  text-shadow: 2px 2px 5px #316bc2;
+}
 
 /*Biologie*/
 #Biologie {
   height: 100vh;
+}
+#Biologie h1 {
+  text-shadow: 2px 2px 5px #316bc2;
 }
 
 /*Fizica*/
 #Fizica {
   height: 100vh;
 }
+#Fizica h1 {
+  text-shadow: 2px 2px 5px #316bc2;
+}
 
 /*Chimie*/
 #Chimie {
   height: 100vh;
+}
+#Chimie h1 {
+  text-shadow: 2px 2px 5px #316bc2;
 }
 
 @media screen and (max-width: 800px) {
