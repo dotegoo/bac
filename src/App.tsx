@@ -1,15 +1,15 @@
 import "./App.css";
-import Despre from "./despre";
-import Romana from "./romana";
-import Matematica from "./matematica";
-import Informatica from "./informatica";
-import Biologie from "./biologie";
-import Fizica from "./fizica";
-import Chimie from "./chimie";
+import Despre from "./components/despre";
+import Romana from "./components/romana";
+import Matematica from "./components/matematica";
+import Informatica from "./components/informatica";
+import Biologie from "./components/biologie";
+import Fizica from "./components/fizica";
+import Chimie from "./components/chimie";
 function App() {
   return (
     <>
-      <div id="primaParte">
+      <div id="app">
         <header>
           <h1 className="text-center">Bac</h1>
           <nav className="navbar">
@@ -39,8 +39,6 @@ function App() {
         <Despre />
         <Romana />
         <Matematica />
-      </div>
-      <div id="aDouaParte">
         <Informatica />
         <Biologie />
         <Fizica />

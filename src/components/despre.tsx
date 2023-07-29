@@ -2,7 +2,6 @@ const Despre = () => {
   return (
     <>
       <div id="Despre">
-        <h1 className="text-center">Despre</h1>
         <div className="ps">
           <p>
             Acest site este despre examenul de bacalaureat, cunoscut ca bac.
