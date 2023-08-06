@@ -10,21 +10,15 @@
 #app {
   background: linear-gradient(#31b7c2, #7bc393, #7bc393, #31b7c2);
 }
-/*Header*/
-header {
-  height: 30vh;
+/*Home*/
+#app {
+  height: 100vh;
 }
-header h1 {
+#app h1 {
   text-shadow: 2px 2px 5px #316bc2;
 }
-
 /*Despre*/
-#Despre {
-  height: 70vh;
-}
-#Despre h1 {
-  text-shadow: 2px 2px 5px #316bc2;
-}
+
 #Despre p {
   font-size: 24px;
   text-align: center;

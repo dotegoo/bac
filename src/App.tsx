@@ -1,5 +1,6 @@
 import "./App.css";
-import Despre from "./components/despre";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./components/home";
 import Romana from "./components/romana";
 import Matematica from "./components/matematica";
 import Informatica from "./components/informatica";
@@ -9,41 +10,17 @@ import Chimie from "./components/chimie";
 function App() {
   return (
     <>
-      <div id="app">
-        <header>
-          <h1 className="text-center">Bac</h1>
-          <nav className="navbar">
-            <div className="container">
-              <a className="navbar-brand" href="#Romana">
-                <img src="./romana.png" width="65" height="65" />
-              </a>
-              <a className="navbar-brand" href="#Matematica">
-                <img src="./matematica.png" width="65" height="65" />
-              </a>
-              <a className="navbar-brand" href="#Informatica">
-                <img src="./informatica.png" width="65" height="65" />
-              </a>
-              <a className="navbar-brand" href="#Biologie">
-                <img src="./biologie.png" width="65" height="65" />
-              </a>
-              <a className="navbar-brand" href="#Fizica">
-                <img src="./fizica.png" width="65" height="65" />
-              </a>
-              <a className="navbar-brand" href="#Chimie">
-                <img src="./chimie.png" width="65" height="65" />
-              </a>
-            </div>
-          </nav>
-        </header>
-
-        <Despre />
-        <Romana />
-        <Matematica />
-        <Informatica />
-        <Biologie />
-        <Fizica />
-        <Chimie />
-      </div>
+      <Router>
+        <Routes>
+          <Route path='/bac/' element Component={Home} />
+          <Route path='/romana' Component={Romana} />
+          <Route path='/matematica' Component={Matematica} />
+          <Route path='/informatica' Component={Informatica} />
+          <Route path='/biologie' Component={Biologie} />
+          <Route path='/fizica' Component={Fizica} />
+          <Route path='/chimie' Component={Chimie} />
+        </Routes>
+      </Router>
     </>
   );
 }
