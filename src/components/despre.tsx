@@ -1,8 +1,9 @@
+import "../App.css";
 const Despre = () => {
   return (
     <>
-      <div id="Despre">
-        <div className="ps">
+      <div id='Despre'>
+        <div className='ps'>
           <p>
             Acest site este despre examenul de bacalaureat, cunoscut ca bac.
           </p>

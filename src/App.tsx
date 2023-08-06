@@ -13,12 +13,12 @@ function App() {
       <Router>
         <Routes>
           <Route path='/bac/' element Component={Home} />
-          <Route path='/romana' Component={Romana} />
-          <Route path='/matematica' Component={Matematica} />
-          <Route path='/informatica' Component={Informatica} />
-          <Route path='/biologie' Component={Biologie} />
-          <Route path='/fizica' Component={Fizica} />
-          <Route path='/chimie' Component={Chimie} />
+          <Route path='/bac/romana' Component={Romana} />
+          <Route path='/bac/matematica' Component={Matematica} />
+          <Route path='/bac/informatica' Component={Informatica} />
+          <Route path='/bac/biologie' Component={Biologie} />
+          <Route path='/bac/fizica' Component={Fizica} />
+          <Route path='/bac/chimie' Component={Chimie} />
         </Routes>
       </Router>
     </>
