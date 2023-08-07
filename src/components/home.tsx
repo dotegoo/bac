@@ -8,22 +8,58 @@ const Home: React.FC = () => {
       <nav className='navbar'>
         <div className='container'>
           <Link className='navbar-brand' to='/bac/romana'>
-            <img src='romana.png' width='65' height='65' />
+            <img
+              alt='imagine materie'
+              src='romana.png'
+              width='65'
+              height='65'
+            />
+            <p className='text-center'>Romana</p>
           </Link>
           <Link className='navbar-brand' to='/bac/matematica'>
-            <img src='matematica.png' width='65' height='65' />
+            <img
+              alt='imagine materie'
+              src='matematica.png'
+              width='65'
+              height='65'
+            />
+            <p className='text-center'>Matematica</p>
           </Link>
           <Link className='navbar-brand' to='/bac/informatica'>
-            <img src='informatica.png' width='65' height='65' />
+            <img
+              alt='imagine materie'
+              src='informatica.png'
+              width='65'
+              height='65'
+            />
+            <p className='text-center'>Informatica</p>
           </Link>
           <Link className='navbar-brand' to='/bac/biologie'>
-            <img src='biologie.png' width='65' height='65' />
+            <img
+              alt='imagine materie'
+              src='biologie.png'
+              width='65'
+              height='65'
+            />
+            <p className='text-center'>Biologie</p>
           </Link>
           <Link className='navbar-brand' to='/bac/fizica'>
-            <img src='fizica.png' width='65' height='65' />
+            <img
+              alt='imagine materie'
+              src='fizica.png'
+              width='65'
+              height='65'
+            />
+            <p className='text-center'>Fizica</p>
           </Link>
-          <Link className='navbar-brand' to='/bac/chimie'>
-            <img src='chimie.png' width='65' height='65' />
+          <Link className='navbar-brand' to='/bacq/chimie'>
+            <img
+              alt='imagine materie'
+              src='chimie.png'
+              width='65'
+              height='65'
+            />
+            <p className='text-center'>Chimie</p>
           </Link>
         </div>
       </nav>
