@@ -14,7 +14,6 @@ const Home: React.FC = () => {
               width='65'
               height='65'
             />
-            <p className='text-center'>Romana</p>
           </Link>
           <Link className='navbar-brand' to='/bac/matematica'>
             <img
@@ -23,7 +22,6 @@ const Home: React.FC = () => {
               width='65'
               height='65'
             />
-            <p className='text-center'>Matematica</p>
           </Link>
           <Link className='navbar-brand' to='/bac/informatica'>
             <img
@@ -32,7 +30,6 @@ const Home: React.FC = () => {
               width='65'
               height='65'
             />
-            <p className='text-center'>Informatica</p>
           </Link>
           <Link className='navbar-brand' to='/bac/biologie'>
             <img
@@ -41,7 +38,6 @@ const Home: React.FC = () => {
               width='65'
               height='65'
             />
-            <p className='text-center'>Biologie</p>
           </Link>
           <Link className='navbar-brand' to='/bac/fizica'>
             <img
@@ -50,7 +46,6 @@ const Home: React.FC = () => {
               width='65'
               height='65'
             />
-            <p className='text-center'>Fizica</p>
           </Link>
           <Link className='navbar-brand' to='/bacq/chimie'>
             <img
@@ -59,7 +54,6 @@ const Home: React.FC = () => {
               width='65'
               height='65'
             />
-            <p className='text-center'>Chimie</p>
           </Link>
         </div>
       </nav>
