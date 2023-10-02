@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import "../App.css";
-import Despre from "./despre";
+import "./App.css";
+import Despre from "./components/despre";
 const Home: React.FC = () => {
   return (
     <div id='app'>
