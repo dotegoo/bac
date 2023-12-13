@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./components/home";
+import Home from "./home";
 import Romana from "./components/romana";
 import Matematica from "./components/matematica";
 import Informatica from "./components/informatica";

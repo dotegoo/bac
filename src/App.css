@@ -12,6 +12,7 @@
   height: 100vh;
 }
 #app h1 {
+  font-size: 80px;
   text-shadow: 2px 2px 5px #316bc2;
 }
 #app nav .container p {
@@ -81,11 +82,17 @@
     height: 40px;
     width: 40px;
   }
+  #app h1 {
+    font-size: 40copx;
+  }
 }
 @media only screen and (max-width: 400px) {
+  #app h1 {
+    font-size: 30px;
+  }
   nav .container img {
-    height: 25px;
-    width: 25px;
+    height: 40px;
+    width: 40px;
   }
   #Despre p {
     font-size: 16px;
