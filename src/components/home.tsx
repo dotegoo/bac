@@ -52,7 +52,7 @@ const Home: React.FC = () => {
             />
             <p className='text-center'>Fizica</p>
           </Link>
-          <Link className='navbar-brand' to='/bacq/chimie'>
+          <Link className='navbar-brand' to='/bac/chimie'>
             <img
               alt='imagine materie'
               src='chimie.png'
