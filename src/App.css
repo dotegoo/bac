@@ -5,8 +5,8 @@
   margin:0;
   font-family: "Sour Gummy", sans-serif;}
 nav{
-  height: 80vh;
-  display: flex;
+  height: 10vh;
+  position: fixed;
   align-items: center;
   justify-content: center;
 }
@@ -26,7 +26,20 @@ h1{
   font-style: italic;
   color:#352f36;
 }
+header{
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 a{
   text-decoration: none;
   color:#352f36;
+}
+div{
+  height: 100vh;
+}
+div h1{
+padding-left: .5vw;
+padding-top: 5vh;
 }
